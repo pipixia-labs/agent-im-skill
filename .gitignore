@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Agent IM runtime state must stay private.
+.agent-im/
+contacts.json
+state.json
+direct/
+
+# Skill-creator/eval working directories should not be published by default.
+agent-im-workspace/
